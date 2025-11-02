@@ -1,4 +1,5 @@
-Adrian Xavier Moral – MIT-Inspired Portfolio Website
+Adrian Xavier Moral Website Portfolio
+
 About
 
 This is my MIT-inspired personal portfolio website, designed to showcase my passion for Computer Engineering, Science, and Technology with a clean, modern, and futuristic feel.
@@ -15,3 +16,4 @@ Sections for About, Skills, Projects, and Dreams
 HTML
 CSS
 JavaScript
+
