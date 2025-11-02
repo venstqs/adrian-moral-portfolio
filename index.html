@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Xavier Moral | Born To Inherit the Stars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Background Stars -->
+    <div id="stars-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AXM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#dreams" class="nav-link">Dreams</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-particles"></div>
+            <h1 class="hero-title">
+                <span class="title-line">Adrian Xavier Moral</span>
+            </h1>
+            <p class="hero-subtitle">Born To Inherit the Stars</p>
+            <p class="hero-description">Grade 10 STEP Student • Tech Enthusiast • Future Innovator</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Explore My Journey</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content glass">
+                <div class="about-text">
+                    <p class="intro-text">
+                        I'm Adrian Xavier Moral, a Grade 10 student from <strong>Camarines Sur National High School</strong>, 
+                        proudly taking the <strong>Science Technology Engineering Program (STEP)</strong>. I'm deeply passionate 
+                        about Technology, Engineering, Science, Space, and Innovation — driven by curiosity and a love for 
+                        building things that push boundaries.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-card">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Embedded Systems</h3>
+                            <p>Arduino, ESP32, Raspberry Pi enthusiast crafting creative hardware-software solutions.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                            <p>Python, C++, and Arduino IDE using VS Code and PyCharm to bring ideas to life.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Beyond Earth</h3>
+                            <p>Obsessed with space exploration — rockets, satellites, and dreams of NASA, SpaceX, or Lockheed Martin.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-user-graduate"></i>
+                            <h3>Leadership</h3>
+                            <p>Researcher, Children Leader from Naga City Children's Federation, and layout artist/journalist for Ang Isarog.</p>
+                        </div>
+                    </div>
+                    <p class="closing-text">
+                        I proudly call myself a <strong>science and engineering nerd</strong> — a dreamer who sees technology 
+                        as the bridge between imagination and reality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Robotics Projects</h3>
+                    <p>Building autonomous robots and automated systems using Arduino and sensors.</p>
+                    <div class="project-tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">C++</span>
+                    </div>
+                </div>
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Modeling & Design</h3>
+                    <p>Creating digital prototypes and 3D models for engineering projects.</p>
+                    <div class="project-tags">
+                        <span class="tag">3D Design</span>
+                        <span class="tag">CAD</span>
+                    </div>
+                </div>
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Development</h3>
+                    <p>Developing interactive games and experiences in Roblox Studio.</p>
+                    <div class="project-tags">
+                        <span class="tag">Lua</span>
+                        <span class="tag">Roblox</span>
+                    </div>
+                </div>
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Desktop Publishing</h3>
+                    <p>Creative layout design and journalism work for Ang Isarog publication.</p>
+                    <div class="project-tags">
+                        <span class="tag">Design</span>
+                        <span class="tag">Journalism</span>
+                    </div>
+                </div>
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Creating compelling visual stories through video production and editing.</p>
+                    <div class="project-tags">
+                        <span class="tag">Editing</span>
+                        <span class="tag">Production</span>
+                    </div>
+                </div>
+                <div class="project-card glass" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Research Projects</h3>
+                    <p>Scientific research and innovation projects in STEM fields.</p>
+                    <div class="project-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">STEM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-container glass">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i> Programming Languages
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Arduino</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i> Tools & Platforms
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>PyCharm</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Roblox Studio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cogs"></i> Technologies
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Robotics</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-satellite"></i>
+                            <span>Embedded Systems</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>3D Modeling</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-video"></i>
+                            <span>Video Editing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-atom"></i> Interests
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Aerospace</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-star"></i>
+                            <span>Astrophysics</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-atom"></i>
+                            <span>Quantum Physics</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Propulsion Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dreams Section -->
+    <section id="dreams" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Dreams & Aspirations</h2>
+            <div class="dreams-container">
+                <div class="dream-card glass orbit-card" data-aos="fade-up">
+                    <div class="orbit-ring"></div>
+                    <div class="dream-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>MIT</h3>
+                    <p>My dream is to study at the Massachusetts Institute of Technology, diving deeper into innovation and aerospace engineering.</p>
+                </div>
+                <div class="dream-card glass orbit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="orbit-ring"></div>
+                    <div class="dream-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Space Exploration</h3>
+                    <p>Working with NASA, SpaceX, or Lockheed Martin to push the boundaries of human space exploration.</p>
+                </div>
+                <div class="dream-card glass orbit-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="orbit-ring"></div>
+                    <div class="dream-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>Building technologies that connect imagination to reality and contribute to humanity's future among the stars.</p>
+                </div>
+            </div>
+            <div class="dreams-quote glass" data-aos="fade-up">
+                <p class="quote-text">
+                    "Born To Inherit the Stars"
+                </p>
+                <p class="quote-author">— A dreamer, a builder, a future innovator</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content glass" data-aos="fade-up">
+                <p class="contact-intro">
+                    Have a project in mind? Want to collaborate? Or just want to chat about space and technology?
+                    I'd love to hear from you!
+                </p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div id="formSuccess" class="form-success">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Message sent successfully! I'll get back to you soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+        <div class="container">
+            <p>&copy; 2024 Adrian Xavier Moral. Born To Inherit the Stars.</p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
