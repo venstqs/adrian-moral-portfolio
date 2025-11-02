@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Xavier Moral | Born To Inherit the Stars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Background Grid -->
+    <div class="background-grid"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AXM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-id">
+                <span class="id-label">STUDENT_ID</span>
+                <span class="id-value">AXM-2024</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line-1">ADRIAN XAVIER</span>
+                <span class="title-line-2">MORAL</span>
+            </h1>
+            <div class="hero-meta">
+                <span class="meta-item">Grade 10 STEP</span>
+                <span class="meta-separator">•</span>
+                <span class="meta-item">Science & Innovation Competitor</span>
+                <span class="meta-separator">•</span>
+                <span class="meta-item">UI/UX Designer</span>
+                <span class="meta-separator">•</span>
+                <span class="meta-item">Mobile & Web Developer</span>
+            </div>
+            <div class="hero-tagline">
+                <code class="tagline-code">// Born To Inherit the Stars</code>
+            </div>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">
+                    <span>EXPLORE</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>CONTACT</span>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-label">SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        I'm Adrian Xavier Moral, a Grade 10 student from <strong>Camarines Sur National High School</strong>, 
+                        proudly taking the <strong>Science Technology Engineering Program (STEP)</strong>. I'm deeply passionate 
+                        about Technology, Science, Space, and Innovation — driven by curiosity and a love for 
+                        building things that push boundaries. I actively participate in <strong>Science and Innovation Competitions</strong>, 
+                        creating innovative devices and solutions that help people and solve real-world problems.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-card">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Embedded Systems</h3>
+                            <p>Arduino, ESP32, Raspberry Pi enthusiast crafting creative hardware-software solutions.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                            <p>Python, C++, and Arduino IDE using VS Code and PyCharm to bring ideas to life.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-palette"></i>
+                            <h3>UI/UX Design</h3>
+                            <p>Creating intuitive and beautiful user experiences through Figma, focusing on user-centered design principles.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Mobile & Web Development</h3>
+                            <p>Building responsive web applications and mobile solutions with modern frameworks and best practices.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Beyond Earth</h3>
+                            <p>Obsessed with space exploration — rockets, satellites, and dreams of NASA, SpaceX, or Lockheed Martin.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-trophy"></i>
+                            <h3>Science & Innovation Competitions</h3>
+                            <p>Active competitor in science and innovation contests, building devices and solutions that help people and address real-world challenges.</p>
+                        </div>
+                        <div class="detail-card">
+                            <i class="fas fa-user-graduate"></i>
+                            <h3>Leadership</h3>
+                            <p>Researcher, Children Leader from Naga City Children's Federation, and layout artist/journalist for Ang Isarog.</p>
+                        </div>
+                    </div>
+                    <p class="closing-text">
+                        I proudly call myself a <strong>science and engineering nerd</strong> — a dreamer who sees technology 
+                        as the bridge between imagination and reality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-up">PROJECTS</h2>
+                <span class="section-number">02</span>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">01</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">ROBOTICS</div>
+                    </div>
+                    <h3 class="project-title">Autonomous Robotics Systems</h3>
+                    <p class="project-description">Building autonomous robots and automated systems using Arduino, ESP32, and sensor arrays. Focus on embedded systems programming and hardware-software integration.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">PLATFORM</span>
+                            <span class="spec-value">Arduino • ESP32</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">LANGUAGE</span>
+                            <span class="spec-value">C++</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Embedded Systems</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">02</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">3D DESIGN</div>
+                    </div>
+                    <h3 class="project-title">3D Modeling & CAD</h3>
+                    <p class="project-description">Creating digital prototypes and 3D models for engineering projects. Technical design and visualization for hardware components.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">TOOL</span>
+                            <span class="spec-value">CAD Software</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">Engineering Design</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">3D Design</span>
+                        <span class="tag">CAD</span>
+                        <span class="tag">Prototyping</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">03</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">SOFTWARE</div>
+                    </div>
+                    <h3 class="project-title">Game Development</h3>
+                    <p class="project-description">Developing interactive games and experiences in Roblox Studio. Implementing game mechanics and user interaction systems.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">PLATFORM</span>
+                            <span class="spec-value">Roblox Studio</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">LANGUAGE</span>
+                            <span class="spec-value">Lua</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Lua</span>
+                        <span class="tag">Roblox</span>
+                        <span class="tag">Game Dev</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">04</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">MEDIA</div>
+                    </div>
+                    <h3 class="project-title">Desktop Publishing</h3>
+                    <p class="project-description">Creative layout design and journalism work for Ang Isarog publication. Technical document design and editorial work.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">ROLE</span>
+                            <span class="spec-value">Layout Artist • Journalist</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">PUBLICATION</span>
+                            <span class="spec-value">Ang Isarog</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Design</span>
+                        <span class="tag">Journalism</span>
+                        <span class="tag">DTP</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">05</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">MEDIA</div>
+                    </div>
+                    <h3 class="project-title">Video Production</h3>
+                    <p class="project-description">Creating compelling visual stories through video production and editing. Technical video editing and post-production.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">Post-Production</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">SKILL</span>
+                            <span class="spec-value">Video Editing</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Editing</span>
+                        <span class="tag">Production</span>
+                        <span class="tag">Media</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">06</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">UI/UX DESIGN</div>
+                    </div>
+                    <h3 class="project-title">User Interface Design</h3>
+                    <p class="project-description">Creating intuitive and beautiful user experiences through Figma. Designing wireframes, prototypes, and high-fidelity mockups with focus on usability and accessibility.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">TOOL</span>
+                            <span class="spec-value">Figma</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">User-Centered Design</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Design</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">07</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">WEB DEV</div>
+                    </div>
+                    <h3 class="project-title">Mobile & Web Applications</h3>
+                    <p class="project-description">Building responsive web applications and mobile solutions with modern frameworks. Creating full-stack applications with focus on performance and user experience.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">TYPE</span>
+                            <span class="spec-value">Mobile & Web</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Web Dev</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">Frontend</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="750">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">08</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">INNOVATION</div>
+                    </div>
+                    <h3 class="project-title">Innovation Competitions & Devices</h3>
+                    <p class="project-description">Participating in science and innovation competitions, creating innovative devices and solutions that help people. Building prototypes and real-world applications.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">TYPE</span>
+                            <span class="spec-value">Competition Projects</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">Device Development</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Innovation</span>
+                        <span class="tag">Competitions</span>
+                        <span class="tag">Devices</span>
+                    </div>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="project-header">
+                        <div class="project-id">
+                            <span class="project-number">09</span>
+                            <span class="project-label">PROJECT</span>
+                        </div>
+                        <div class="project-category">RESEARCH</div>
+                    </div>
+                    <h3 class="project-title">STEM Research</h3>
+                    <p class="project-description">Scientific research and innovation projects in STEM fields. Data analysis and experimental design.</p>
+                    <div class="project-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">FIELD</span>
+                            <span class="spec-value">STEM</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">FOCUS</span>
+                            <span class="spec-value">Innovation</span>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">STEM</span>
+                        <span class="tag">Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i> Programming Languages
+                    </h3>
+                    <p class="category-description">Crafting solutions across multiple paradigms — from web to mobile, systems to data science.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <small>Data science & automation</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <small>Web interactivity & beyond</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <small>Modern UI frameworks</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                            <small>Structure & semantics</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                            <small>Styling & layouts</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                            <small>Performance-critical systems</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <small>Enterprise applications</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                            <small>.NET ecosystem</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>TypeScript</span>
+                            <small>Type-safe JavaScript</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Go</span>
+                            <small>Concurrent systems</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Rust</span>
+                            <small>Memory-safe systems</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                            <small>Server-side scripting</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-swift"></i>
+                            <span>Swift</span>
+                            <small>iOS development</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Kotlin</span>
+                            <small>Android & modern JVM</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-gem"></i>
+                            <span>Ruby</span>
+                            <small>Elegant scripting</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>R</span>
+                            <small>Statistical computing</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                            <small>Data manipulation</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Dart</span>
+                            <small>Flutter development</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i> Tools & Platforms
+                    </h3>
+                    <p class="category-description">The toolbox that brings ideas to life — from code editors to creative platforms.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>VS Code</span>
+                            <small>Primary coding environment</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>PyCharm</span>
+                            <small>Python IDE & debugging</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Arduino IDE</span>
+                            <small>Embedded development</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <small>UI/UX design & prototyping</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Roblox Studio</span>
+                            <small>Game development platform</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-palette"></i> Design & Development
+                    </h3>
+                    <p class="category-description">Creating visually compelling experiences — from digital interfaces to print publications.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <span>UI/UX Design</span>
+                            <small>User-centered design</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Dev</span>
+                            <small>Cross-platform apps</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Dev</span>
+                            <small>Full-stack solutions</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layout"></i>
+                            <span>Frontend</span>
+                            <small>Interactive interfaces</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-image"></i>
+                            <span>Adobe Photoshop</span>
+                            <small>Image editing & graphics</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-vector-square"></i>
+                            <span>Adobe Illustrator</span>
+                            <small>Vector graphics & design</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-newspaper"></i>
+                            <span>Adobe InDesign</span>
+                            <small>Layout Artist for Ang Isarog</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cogs"></i> Technologies
+                    </h3>
+                    <p class="category-description">Building the future, one circuit and algorithm at a time — from hardware to digital worlds.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>Robotics</span>
+                            <small>Autonomous systems & automation</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-satellite"></i>
+                            <span>Embedded Systems</span>
+                            <small>Hardware-software integration</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube"></i>
+                            <span>3D Modeling</span>
+                            <small>Digital prototyping & visualization</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-video"></i>
+                            <span>Video Editing</span>
+                            <small>Post-production & storytelling</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-atom"></i> Interests
+                    </h3>
+                    <p class="category-description">Exploring the cosmos and the fundamental laws that govern our universe — from quantum mechanics to interstellar travel.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Aerospace</span>
+                            <small>Space exploration & aviation</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-star"></i>
+                            <span>Astrophysics</span>
+                            <small>Cosmic phenomena & stars</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-atom"></i>
+                            <span>Quantum Physics</span>
+                            <small>The quantum realm & particles</small>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Propulsion Systems</span>
+                            <small>Rocket engines & thrust</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content" data-aos="fade-up">
+                <p class="contact-intro">
+                    Have a project in mind? Want to collaborate? Or just want to chat about space and technology?
+                    I'd love to hear from you!
+                </p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div id="formSuccess" class="form-success">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Message sent successfully! I'll get back to you soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Adrian Xavier Moral. Born To Inherit the Stars.</p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
