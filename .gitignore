@@ -1,24 +1,25 @@
-# OS Files
+-OS Files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Editor Files
+-Editor Files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Logs
+-Logs
 *.log
 npm-debug.log*
 
-# Environment files
+- Environment files
 .env
 .env.local
 
-# Build files (if using any build tools later)
+- Build files (if using any build tools later)
 dist/
 build/
 *.map
+
