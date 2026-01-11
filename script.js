@@ -1,3 +1,5 @@
+//tinamadnaakomaglagayngdescription hahahhaa bahala na yan i-ai niyo nalang
+
 gsap.registerPlugin(ScrollTrigger);
 const themeToggle = document.getElementById('themeToggle');
 const themeIcon = document.getElementById('themeIcon');
@@ -308,4 +310,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
 
